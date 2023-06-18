@@ -16,10 +16,6 @@
         greenScore = 150,
         blueScore = 150;
 
-    function rand(min, max) {
-        return Math.floor(Math.random() * (max - min) + min); //최댓값은 제외, 최솟값은 포함
-    }
-
     const addScore = (color, tag, idx, stack) => {
         if (color == "R") {
             if (tag == "P") {
