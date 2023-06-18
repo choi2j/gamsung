@@ -1,0 +1,101 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    gap: 2rem;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 10rem;
+    background: linear-gradient(135deg, var(--purple), var(--pink));
+}
+
+#intro p {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+#help {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#help:hover {
+    color: var(--purple);
+}
+
+#help-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: #00000080;
+}
+
+#help-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+#help-info span {
+    color: var(--pink);
+    font-weight: 500;
+}
+
+#help-info button {
+    padding: 0.5rem 2rem;
+    background: none;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #000;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+#help-info button:hover {
+    border: 1px solid var(--pink);
+    border-radius: 16px;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#contact a {
+    color: #000;
+}
+
+#start {
+    padding: 0.5rem 5rem;
+    background: none;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #000;
+    transition: all 300ms;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+#start:hover {
+    border: 1px solid var(--pink);
+    border-radius: 16px;
+}
